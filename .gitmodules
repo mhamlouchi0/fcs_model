@@ -1,0 +1,9 @@
+[submodule "src/Controller"]
+	path = src/Controller
+	url = git@github.com:mhamlouchi0/controller_model_poc.git
+[submodule "src/VMS_model"]
+	path = src/VMS_model
+	url = git@github.com:mhamlouchi0/vms_model_poc.git
+[submodule "Common_lib"]
+	path = Common_lib
+	url = git@github.com:mhamlouchi0/common_lib_poc.git

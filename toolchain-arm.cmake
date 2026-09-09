@@ -1,0 +1,5 @@
+set(CMAKE_SYSTEM_NAME Generic)
+set(CMAKE_SYSTEM_PROCESSOR aarch64)
+set(CMAKE_C_COMPILER /opt/gcc-arm-9.2-2019.12-x86_64-aarch64-none-elf/bin/aarch64-none-elf-gcc)
+set(CMAKE_EXE_LINKER_FLAGS "-nostdlib -static")
+set(CMAKE_C_FLAGS "-mcpu=cortex-a53 -mabi=lp64" CACHE STRING "" FORCE)
